@@ -1,18 +1,31 @@
 {
-  "message": "WELCOME TO DARK GLOBAL NET 🚀",
-  "version": "6.0",
-  "update": true,
-  "notice": "NEW JIO SERVER ADDED 🔥",
-  "telegram": "https://t.me/DARKGLOBALNET",
-  "feedback": "https://t.me/DARKGLOBALNET",
-  "servers": [
+  "Version": "2.0",
+  "Message": "Dark Global Net 🚀",
+  "Servers": [
     {
-      "name": "JIO SSL SERVER 🔐",
-      "config": "ssh://vpnstunnel-zzmm:4863@ssh-1.chice.me:443?type=ssl&sni=api.jio.com.1991.in#DARK-SSL"
+      "Name": "JIO HTTP SERVER ⚡",
+      "ServerIP": "ssh-1.chice.me",
+      "SSHPort": "80",
+      "ServerUser": "vpnstunnel-bbki",
+      "ServerPass": "4763",
+      "SSLPort": "443",
+      "ProxyPayload": "GET / HTTP/1.1[crlf]Host: api.jio.com.1991.in[crlf][crlf]",
+      "SNI": "api.jio.com.1991.in"
     },
     {
-      "name": "JIO HTTP SERVER ⚡",
-      "config": "ssh://vpnstunnel-zzmm:4863@ssh-1.chice.me:80?type=http&sni=api.jio.com.1991.in#DARK-HTTP"
+      "Name": "JIO SSL SERVER 🔥",
+      "ServerIP": "ssh-1.chice.me",
+      "SSHPort": "443",
+      "ServerUser": "vpnstunnel-bbki",
+      "ServerPass": "4763",
+      "SSLPort": "443",
+      "SNI": "api.jio.com.1991.in"
+    }
+  ],
+  "Tweaks": [
+    {
+      "Name": "Jio Payload",
+      "Payload": "GET / HTTP/1.1[crlf]Host: api.jio.com.1991.in[crlf][crlf]"
     }
   ]
 }
