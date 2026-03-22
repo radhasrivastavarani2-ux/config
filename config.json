@@ -1,0 +1,18 @@
+{
+  "message": "WELCOME TO DARK GLOBAL NET 🚀",
+  "version": "6.0",
+  "update": true,
+  "notice": "NEW JIO SERVER ADDED 🔥",
+  "telegram": "https://t.me/DARKGLOBALNET",
+  "feedback": "https://t.me/DARKGLOBALNET",
+  "servers": [
+    {
+      "name": "JIO SSL SERVER 🔐",
+      "config": "ssh://vpnstunnel-zzmm:4863@ssh-1.chice.me:443?type=ssl&sni=api.jio.com.1991.in#DARK-SSL"
+    },
+    {
+      "name": "JIO HTTP SERVER ⚡",
+      "config": "ssh://vpnstunnel-zzmm:4863@ssh-1.chice.me:80?type=http&sni=api.jio.com.1991.in#DARK-HTTP"
+    }
+  ]
+}
